@@ -33,3 +33,7 @@ struct Currency: Codable {
         self.rates = dictionary
     }
 }
+
+struct Conversion: Codable {
+    let result: Double
+}
